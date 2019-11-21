@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Foovel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body onload="load()">
+	
+	<div class="header-top">
+		<div class="container">
+			<div class="head-main">
+				<a href="index.html"><img src="./images/logo.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="about.html" >About</a></li>
+						<li><a href="blog.html" >Blog</a></li>
+            <li><a href="cityguides.html">City Guides</a></li>
+						<li><a href="contact.html" class="active">Contact</a></li>
+					</ul>
+			</div>
+			<div class="header-right">
+				<div class="search-bar">
+					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value="">
+				</div>
+				<ul>
+					<li><a href="https://www.facebook.com/dinky.khurana.1"><span class="fb"> </span></a></li>
+					<li><a href="#"><span class="twit"> </span></a></li>
+					<li><a href="#"><span class="pin"> </span></a></li>
+					
+				</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	
+	
+	<section class="timeline">
+			<div class="container">
+			  <div class="timeline-item">
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content js--fadeInLeft">
+				  <h2>Title</h2>
+				  <div class="date">1 MAY 2016</div>
+				  <p id="me"></p>
+				</div>
+			  </div> 
+		  
+			  <div class="timeline-item">
+		  
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content timeline-card js--fadeInRight">
+				  <div class="timeline-img-header">
+					<h2>Card Title</h2>
+				  </div>
+				  <div class="date">25 MAY 2016</div>
+				  <p id="me2"></p>
+				  <a class="bnt-more" href="javascript:void(0)">More</a>
+				</div>
+		  
+			  </div>   
+		  
+			  <div class="timeline-item">
+		  
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content js--fadeInLeft">
+				  <div class="date">3 JUN 2016</div>
+				  <h2>Quote</h2>
+				  <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+				</div>
+			  </div>   
+		  
+			  <div class="timeline-item">
+		  
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content js--fadeInRight">
+				  <h2>Title</h2>
+				  <div class="date">22 JUN 2016</div>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+				  <a class="bnt-more" href="javascript:void(0)">More</a>
+				</div>
+			  </div>   
+		  
+			  <div class="timeline-item">
+		  
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content timeline-card js--fadeInLeft">
+				  <div class="timeline-img-header">
+					<h2>Card Title</h2>
+				  </div>
+				  <div class="date">10 JULY 2016</div>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+				  <a class="bnt-more" href="javascript:void(0)">More</a>
+				</div>
+			  </div>   
+		  
+			  <div class="timeline-item">
+		  
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content timeline-card js--fadeInRight">
+				  <div class="timeline-img-header">
+					<h2>Card Title</h2>
+				  </div>
+				  <div class="date">30 JULY 2016</div>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+				  <a class="bnt-more" href="javascript:void(0)">More</a>
+				</div>
+			  </div>  
+		  
+			  <div class="timeline-item">
+		  
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content js--fadeInLeft">
+				  <div class="date">5 AUG 2016</div>
+				  <h2>Quote</h2>
+				  <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+				</div>
+			  </div>   
+		  
+			  <div class="timeline-item">
+		  
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content timeline-card js--fadeInRight">
+				  <div class="timeline-img-header">
+					<h2>Card Title</h2>
+				  </div>
+				  <div class="date" id="demo">19 AUG 2016</div>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+				  <a class="bnt-more" href="javascript:void(0)">More</a>
+				</div>
+			  </div>  
+		  
+			  <div class="timeline-item">
+		  
+				<div class="timeline-img"></div>
+		  
+				<div class="timeline-content js--fadeInLeft">
+				  <div class="date" ></div>
+				  <h2>Title</h2>
+				  <p id="demo1"></p>
+				  <a class="bnt-more" href="javascript:void(0)">More</a>
+				</div>
+			  </div>   
+		  
+		  
+		  
+			</div>
+		  </section>
+<style>section {
+		padding: 100px 0;
+	  }
+	  
+	  html, body {
+		overflow-x: hidden;
+	  }
+	  
+	  body {
+		font-family: 'Roboto';
+		font-size: 17px;
+		font-weight: 400;
+		background-color:white;
+	  }
+	  
+	  h1 {
+		font-size: 200%;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-weight: 400;
+	  }
+	  
+	  header {
+	background: #3F51B5;
+		color: #FFFFFF;
+		padding: 150px 0;
+	  }
+	  header p {
+		font-family: 'Allura';
+		color: rgba(255, 255, 255, 0.2);
+		margin-bottom: 0;
+		font-size: 60px;
+		margin-top: -30px;
+	  }
+	  
+	  .timeline {
+		position: relative;
+	  }
+	  .timeline::before {
+		content: '';
+		background: #C5CAE9;
+		width: 5px;
+		height: 95%;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	  }
+	  
+	  .timeline-item {
+		width: 100%;
+		margin-bottom: 70px;
+	  }
+	  .timeline-item:nth-child(even) .timeline-content {
+		float: right;
+		padding: 40px 30px 10px 30px;
+	  }
+	  .timeline-item:nth-child(even) .timeline-content .date {
+		right: auto;
+		left: 0;
+	  }
+	  .timeline-item:nth-child(even) .timeline-content::after {
+		content: '';
+		position: absolute;
+		border-style: solid;
+		width: 0;
+		height: 0;
+		top: 30px;
+		left: -15px;
+		border-width: 10px 15px 10px 0;
+		border-color: transparent #f5f5f5 transparent transparent;
+	  }
+	  .timeline-item::after {
+		content: '';
+		display: block;
+		clear: both;
+	  }
+	  
+	  .timeline-content {
+		position: relative;
+		width: 45%;
+		padding: 10px 30px;
+		border-radius: 4px;
+		background: #f5f5f5;
+		box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+	  }
+	  .timeline-content::after {
+		content: '';
+		position: absolute;
+		border-style: solid;
+		width: 0;
+		height: 0;
+		top: 30px;
+		right: -15px;
+		border-width: 10px 0 10px 15px;
+		border-color: transparent transparent transparent #f5f5f5;
+	  }
+	  
+	  .timeline-img {
+		width: 30px;
+		height: 30px;
+		background: #3F51B5;
+		border-radius: 50%;
+		position: absolute;
+		left: 50%;
+		margin-top: 25px;
+		margin-left: -15px;
+	  }
+	  
+	  a {
+		background: #3F51B5;
+		color: #FFFFFF;
+		padding: 8px 20px;
+		text-transform: uppercase;
+		font-size: 14px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		display: inline-block;
+		border-radius: 2px;
+		box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+	  }
+	  a:hover, a:active, a:focus {
+		background: #32408f;
+		color: #FFFFFF;
+		text-decoration: none;
+	  }
+	  
+	  .timeline-card {
+		padding: 0 !important;
+	  }
+	  .timeline-card p {
+		padding: 0 20px;
+	  }
+	  .timeline-card a {
+		margin-left: 20px;
+	  }
+	  
+	  .timeline-item .timeline-img-header {
+		background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
+		background-size: cover;
+	  }
+	  
+	  .timeline-img-header {
+		height: 200px;
+		position: relative;
+		margin-bottom: 20px;
+	  }
+	  .timeline-img-header h2 {
+		color: #FFFFFF;
+		position: absolute;
+		bottom: 5px;
+		left: 20px;
+	  }
+	  
+	  blockquote {
+		margin-top: 30px;
+		color: #757575;
+		border-left-color: #3F51B5;
+		padding: 0 20px;
+	  }
+	  
+	  .date {
+		background: #FF4081;
+		display: inline-block;
+		color: #FFFFFF;
+		padding: 10px;
+		position: absolute;
+		top: 0;
+		right: 0;
+	  }
+	  
+	  @media screen and (max-width: 768px) {
+		.timeline::before {
+		  left: 50px;
+		}
+		.timeline .timeline-img {
+		  left: 50px;
+		}
+		.timeline .timeline-content {
+		  max-width: 100%;
+		  width: auto;
+		  margin-left: 70px;
+		}
+		.timeline .timeline-item:nth-child(even) .timeline-content {
+		  float: none;
+		}
+		.timeline .timeline-item:nth-child(odd) .timeline-content::after {
+		  content: '';
+		  position: absolute;
+		  border-style: solid;
+		  width: 0;
+		  height: 0;
+		  top: 30px;
+		  left: -15px;
+		  border-width: 10px 15px 10px 0;
+		  border-color: transparent #f5f5f5 transparent transparent;
+		}
+	  }
+	  
+</style>		  
+</body>
+
+<script>
+
+		var sid=document.getElementById('ss');
+		sid.addEventListener("click", function(){
+			// alert('gjh');
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					
+       var obj=JSON.parse(this.responseText);
+	   console.log(obj);
+	   console.log(typeof(obj));
+	   console.log(obj[230].name); 	
+	   var res=" ";
+	   for(i=0;i<250;i++){
+	   res=res+obj[i].name+'<br>';
+				}
+	   document.getElementById("demo1").innerHTML=res;
+     
+				}
+			};
+			xhttp.open("GET", "https://restcountries.eu/rest/v2/all",true);
+			xhttp.send();
+		})
+		 $(function(){
+	
+	 window.sr = ScrollReveal();
+	
+	if ($(window).width() < 768) {
+	
+		if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+			$('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+	 	}
+	
+	 	sr.reveal('.js--fadeInRight', {
+	 	  origin: 'right',
+		  distance: '300px',
+	 	  easing: 'ease-in-out',
+		  duration: 800,
+	 	});
+	
+	 } else {
+		
+	 	sr.reveal('.js--fadeInLeft', {
+	 	  origin: 'left',
+	 	  distance: '300px',
+	 		easing: 'ease-in-out',
+	 	  duration: 800,
+	 	});
+	
+	 	sr.reveal('.js--fadeInRight', {
+	 	  origin: 'right',
+	 	  distance: '300px',
+	 	  easing: 'ease-in-out',
+	 	  duration: 800,
+	 	});
+	
+	 }
+	
+	 sr.reveal('.js--fadeInLeft', {
+	 	  origin: 'left',
+	 	  distance: '300px',
+	 		easing: 'ease-in-out',
+	 	  duration: 800,
+	 	});
+	
+	 	sr.reveal('.js--fadeInRight', {
+	 	  origin: 'right',
+		  distance: '300px',
+		  easing: 'ease-in-out',
+	 	  duration: 800,
+		});
+	
+	
+	});
+	function load() {
+		var xhttp;
+  if (window.XMLHttpRequest) {
+    // code for modern browsers
+    xhttp = new XMLHttpRequest();
+  } else {
+    // code for IE6, IE5
+    xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       var obj=JSON.parse(this.responseText);
+       var res=obj.meals[0].strDescription
+        document.getElementById("me").innerHTML = res;
+		document.getElementById("me2").innerHTML = res;
+		
+    }
+  };
+  xhttp.open("GET", "https://www.themealdb.com/api/json/v1/1/list.php?i=list", true);
+  xhttp.send();
+}
+	</script>
+</html>
