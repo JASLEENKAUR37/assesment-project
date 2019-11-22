@@ -28,8 +28,8 @@ divRes.appendChild(nameRes);
 
 var imgRes = document.createElement("img");
 imgRes.setAttribute("src",res_img);
-imgRes.setAttribute("height","100px");
-imgRes.setAttribute("width","100px");
+imgRes.setAttribute("height","250px");
+imgRes.setAttribute("width","300px");
 divRes.appendChild(imgRes);
 
 var lineBreak = document.createElement("br");
